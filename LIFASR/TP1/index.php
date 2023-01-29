@@ -38,13 +38,14 @@
 			$op= $_GET['operation'];
 			$nombre1 = $_GET['nombre1'];
 			$nombre2 = $_GET['nombre2'];
-			
 			calculatrice($nombre1, $nombre2, $op);
 		}
 
 
 		function calculatrice($nb1, $nb2, $op) {
 			if (is_numeric($nb1) && is_numeric($nb2)) {
+				global $resultat;
+
 				switch ($op) {
 					case "plus":
 						$resultat = $nb1 + $nb1;
@@ -91,12 +92,20 @@
 			</form>
 
 			<h2>Resultat : 
-				<?php 
+				<?php
 					if (isset($resultat)){
 						echo $resultat;
 					}
 				?>
 			</h2>
+				
+			<h3>Paramètres envoyés au serveur :</h3>
+			<?php 
+				foreach ($_GET as $k => $v) {
+					echo $k . " : " . $v;
+					echo "<br />";
+				}
+			?>
 		</div>
 	</body>
 </html>
