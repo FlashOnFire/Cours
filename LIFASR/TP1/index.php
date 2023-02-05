@@ -48,19 +48,20 @@
 
 				switch ($op) {
 					case "plus":
-						$resultat = $nb1 + $nb1;
+						$resultat = $nb1 + $nb2;
+						echo $resultat;
 						break;
 					case "moins":
-						$resultat = $nb1 - $nb1;
+						$resultat = $nb1 - $nb2;
 						break;
 					case "fois":
-						$resultat = $nb1 * $nb1;
+						$resultat = $nb1 * $nb2;
 						break;
 					case "barre":
 						if ($nb2 == 0)
 							$resultat = "Division par 0";
 						else
-							$resultat = $nb1 / $nb1;
+							$resultat = $nb1 / $nb2;
 					break;
 				}
 			}
