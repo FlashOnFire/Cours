@@ -1,3 +1,120 @@
 td {
     padding: 10px;
 }
+
+body {
+	text-align: center;
+	background-color: #faf8ef;
+}
+
+h1 {
+	color: #776e65;
+	font-weight: 700;
+	font-size: 46px;
+	font-family: clear sans,helvetica neue,Arial,sans-serif;
+}
+
+.score {
+	color: #776e65;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: clear sans,helvetica neue,Arial,sans-serif;
+}
+
+.regles {
+	background: rgb(243,252,109);
+	border-radius:15px;
+	padding : 3px;
+	margin : 10px 20%;
+	font-family: clear sans,helvetica neue,Arial,sans-serif;
+	font-weight: 500;
+}
+
+.jeu {
+	text-align : center;
+	font-size : 40px;
+	margin:auto;
+	border-radius:6px;
+	background-color: #bbada0;
+	border-spacing: 10px;
+}
+
+td {
+	width : 125px;
+	height : 125px;
+	border-radius: 6px;
+	font-family: clear sans,helvetica neue,Arial,sans-serif;
+	font-weight: 700;
+}
+
+.bouton {
+	background:#8f7a66;
+	border-radius:6px;
+	border:1px #000;
+	color: #FFFFFF;
+	font-family: clear sans,helvetica neue,Arial,sans-serif;
+	padding : 15px;
+	font-weight: 700;
+}
+
+.bouton-jeu {
+	background:#8f7a66;
+	border-radius:6px;
+	border:1px #000;
+	margin: 5px;
+	text-align:center;
+	height: 70px;
+	width: 70px;
+	color: #FFFFFF;
+	font-family: clear sans,helvetica neue,Arial,sans-serif;
+	font-weight: 700;
+}
+
+.c0{
+	background-color: #f5f5f5;
+	color : #f5f5f5;
+}
+
+.c2{
+	background-color: #ede0c8;
+}
+
+.c4{
+	background-color: #eeed4a;
+}
+
+.c8{
+	background-color: #f2b179;
+}
+
+.c16{
+	background-color: #f59563;
+}
+
+.c32{
+	background-color: #f67c5f;
+}
+
+.c64{
+	background-color: #f65e3b;
+}
+
+.c128{
+	background-color: #edcf72;
+}
+
+.c256{
+	background-color: #edcc61;
+}
+
+.c512{
+	background-color: #edc850;
+}
+
+.c1024{
+	background-color: #edc53f;
+}
+
+.c2048{
+	background-color: #edc22e;
+}
