@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background: #EEE;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+    position: fixed;
+    float: left;
+    width: 180px;
+    padding: 20px;
+    text-align: left;
+    background-color: #ffffff8e;
+    margin: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.contenu {
+    float: right;
+    width: 70%;
+    padding: 10px;
+    margin: 0 10px;
+    margin-top: 20px;
+    background-color: #ffffff8e;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.nouveau_post, .affiche_post {
+    height: auto;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.nouveau_post {
+    margin-bottom: 10px;
+}
+
+.contenu h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.publication {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+input[type="submit"], button {
+    padding: 10px;
+    background-color: #118bd1;
+    color: white;
+    border: 2px solid #CCC;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+input, select {
+    margin: 7px 0;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.nbLikes {
+    margin: 0 10px;;
+}
+
+.publication {
+    padding-left: 30px;
+    text-align: left;
+    margin: 30px 0;
+}
+
+.publication img {
+    max-width: 90%;
+}
